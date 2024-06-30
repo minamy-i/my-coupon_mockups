@@ -1,0 +1,32 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if you're using npm)
+node_modules/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Other potential files to ignore
+*.bak
+*.cache
