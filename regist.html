@@ -1,0 +1,44 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイクーポン - クーポン登録</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <!-- ヘッダーが読み込まれます -->
+    </header>
+    
+    <main>
+        <h2>クーポン登録</h2>
+        <form id="registForm">
+            <div class="form-group">
+                <label for="couponId">クーポンID　：</label>
+                <span id="couponId"></span>
+            </div>
+            <div class="form-group">
+                <label for="couponName">クーポン名称：</label>
+                <input type="text" id="couponName" name="couponName" required>
+            </div>
+            <div class="form-group">
+                <label for="drop-zone">クーポン画像：</label>
+                <div id="drop-zone">ここに画像をドラッグ＆ドロップしてください</div>
+                <img id="preview" src="#" alt="プレビュー">
+            </div>
+            <div class="form-group">
+                <button type="submit">登録</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 私のクーポン券. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="regist.js"></script>
+</body>
+</html>

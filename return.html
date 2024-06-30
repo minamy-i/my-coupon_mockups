@@ -1,0 +1,47 @@
+<!-- return.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイクーポン - クーポン返却</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <!-- ヘッダーが読み込まれます -->
+    </header>
+    
+    <main>
+        <h2>クーポン返却</h2>
+        <form id="returnForm">
+            <div class="form-group">
+                <label for="couponId">クーポンID　：</label>
+                <input type="text" id="couponId" name="couponId" required>
+            </div>
+            <div class="form-group">
+                <label for="returnAmount">返 却 枚 数　：</label>
+                <input type="number" id="returnAmount" name="returnAmount" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="couponName">クーポン名称：</label>
+                <span id="couponName"></span>
+            </div>
+            <div class="form-group">
+                <label for="couponImage">クーポン画像：</label>
+                <img id="couponImage" src="#" alt="クーポン画像" style="max-width: 200px; display: block; margin-top: 10px;">
+            </div>
+            <div class="form-group">
+                <button type="submit">返却</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 私のクーポン券. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="return.js"></script>
+</body>
+</html>
